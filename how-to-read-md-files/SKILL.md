@@ -7,6 +7,7 @@ description: how to read and use the markdown files where there are coding requi
 
 # Modification Rules
 - 每次改动(增加代码), 代码中必须要有注释, 中英文双语都需要
+- 至少每个函数都要有注释, 必要时, 内部代码关键步骤需要给出注释
 - 改动结束后, 需要判断是否更新README.md
 - [thinking]或者<thinking></thinking>中的内容, 是我希望你(coding agent)自己考虑并作出判断的内容, 这里之所以特别标注出来, 是为了提示你进行判断, 因为我也不确定哪个方案更好
 - 改动结束后, 如果发现本文档中其他部分与现有内容有冲突, 请修改本文档其他部分的描述, 确保二者相互匹配
