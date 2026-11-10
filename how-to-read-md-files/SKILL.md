@@ -14,6 +14,7 @@ description: how to read and use the markdown files where there are coding requi
 - "期望"和"现状"字段中的内容尽量不要修改, 保留下来, 方便后续理解. 可以新增一个字段"已实现", 将你实现的内容进行描述. 如果"期望"和"现状"中有和实际情况不符合的, 可以进行修正.
 - "实施计划" or "Plan" 字段是专门留给coding agent规划任务使用的, 我会明确要求coding agent根据"期望"和"现状"出"实施计划"
 - 如果"实施计划" or "Plan" 已经存在, 则需要评估该计划的可行性, 是否有更好的解决方案.
+- (antigravity下) 如果要修改文档, 文件修改按行范围拆成几次 replace_file_content，每次不超过 100 行
 
 ## 状态更新规则
 - 一般只需要对[new]或者<new></new>中的内容进行改动, 改动结束后, 标记为[modified]或者对应的<modified></modified>, 并根据实际改动内容, 对[new]或者<new></new>进行改动, 主要是对修改的说明,便于之后coding agent理解. 即:完成实现后，请将本文档各段落前缀从 `[new]` 改为 `[modified]`（可按 section 级别更新）。
